@@ -218,17 +218,22 @@ body{
     margin-top: 20px;
     padding-bottom: 43px;
 }
-.section5{
+..section5-div{
     display: flex;
     background-image: url('../assets/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: center bottom;
     height: 700px;
+    
+    height: 900px;
+    margin-top: 100px;
+}
+.section5{
+    height: 900px;
+    margin-top: 100px;
     max-width: 70%;
     height: 600px;
     margin: 70px auto;
-    height: 900px;
-    margin-top: 100px;
 }
 .section5 h5{
     color: #070211;
@@ -242,4 +247,81 @@ body{
     text-align: center;
     font-size: 45px;
     font-weight: 900;
+}
+
+.section-five .sale {
+    color: #070211;
+    font-size: 45px;  
+    font-weight: 900;
+    
+}
+.section5 p{
+    width: 875px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 180px;
+    margin-top: 25px;
+}
+.section5-column1 img{
+    max-width: 775px;
+    height: 650px;
+}
+.section5-column2{
+    background-image: url('../assets/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 550px;
+    height: 470px;
+}
+.section5-column2 img{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    width: 206px;
+    height: 206px;
+    margin-top: 120px;
+    display: inline-flex;
+   
+}
+.section6{
+    max-width: 70%;
+    height: 600px;
+    margin: 70px auto;
+    margin-top: 800px;
+    height: 1100px;
+}
+.section6 h5{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.section6 h2{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+.section6 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 22px;
+    margin-bottom: 24px;
+}
+.section6-column1{
+    display: flex;
+    gap: 20px;
+}
+.section6-column2{
+    display: flex;
+    gap: 20px;
 }
